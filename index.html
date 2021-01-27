@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Script Tutorials" />
+  <title>Julie's Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- attach CSS styles -->
+  <!--Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a9d6582a8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md fixed-top py-3">
+      <div class="container-fluid"><a href="#home" class="navbar-brand animate__animated animate__fadeInLeft">JULIE
+          TRAN</a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto navbar-right">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link text-uppercase font-weight-bold">Home <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"><a href="#about" class="nav-link text-uppercase font-weight-bold">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link text-uppercase font-weight-bold">Skills</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link text-uppercase font-weight-bold">Portfolio</a>
+            </li>
+            <li class="nav-item"><a href="/images/JulieTran20.pdf"
+                class="nav-link text-uppercase font-weight-bold">CV</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </nav>
+
+
+  <!-- first section - Home -->
+  <div id="home" class="home">
+    <div class="text-vcenter  wow fadeIn mb-3">
+      <h1 class="homeh1">Hi! I'm Julie</h1><br>
+      <h2><strong>Your Future: </h2></strong>
+      <p id="typewriter" data-typewriter="Software Engineer, Front-End Developer, Back-end Developer"></p><span
+        class="blinking-cursor">|</span>
+      <div id="clock"></div>
+    </div>
+  </div>
+
+
+
+  <!-- second section - About -->
+  <div id="about" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="Images/main.jpeg" width="400px" alt="" />
+        </div>
+        <div class="col-sm-6 text-center">
+          <h2>ABOUT ME</h2>
+          <p>
+          <h2 class=about2>ABOUT ME</h2>
+          <hr>
+          </p>
+          <br>
+          Hello! My name is Julie Tran.
+          <p>
+            If you can't tell by my last name, my ethnicity is Vietnamese but I'm born and raised in Canada.</p>
+          <p>I went to Ryerson University studying Graphics Communications Management (<i>in short terms that means
+              I studied the printing industry aka anything that you can imagine on a screen and turning it into a
+              physical product</i>). Soon upon graduation I moved overseas and have been in Hong Kong for 2 years.
+          </p>
+          <p>Career wise, I've always been in sales from recruitment to cloud solutions and fintech.
+          <p> I'm an inspiring software engineer/full stack developer and in the process of learning everything through
+            Xccelerate!</p>
+          <p>Oh and I have a dog named Potato and he's the <b>best</b>!! </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Parallax Video -->
+  <div data-speed="100" class="ParallaxVideo">
+    <video autoplay poster="" class="video-parallax" controls width="100%" loop muted>
+      <source src="/images/beachvideo.mp4" type="video/webm">
+      <source src="/images/beachvideo.mp4" type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+  </div>
+
+
+
+  <!-- third section - skills -->
+  <div id="skills" class="pad-section" style="background: url(/images/parallax.jpg) center center;">
+    <div class="container">
+      <h2 class="text-center">SKILLS</h2>
+      <hr />
+      <div class="row text-center">
+        <div class="col-sm-3 col-xs-6">
+          <div class="counter" data-cp-percentage="30" data-cp-color="#73af51">
+          </div>
+          <h3>Javascript</h3>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="counter" data-cp-percentage="50" data-cp-color="#86b66a">
+          </div>
+          <h3>HTML</h3>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="counter" data-cp-percentage="55" data-cp-color="#92b97c"></div>
+          <h3>CSS</h3>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="counter" data-cp-percentage="25" data-cp-color="#aac29c"></div>
+          <h3>Bootstrap</h3>
+        </div>
+      </div>
+    </div>
+    <button class="btn-update"></button>
+  </div>
+
+
+  <!-- Parallax - hk skyline -->
+  <div id="hkskyline" class="pad-section">
+  </div>
+
+
+
+
+  <!-- fourth section - Portfolio -->
+  <section class="port" id="portfolio">
+    <div id="portfolio2" class="pad-section">
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content">
+              <div class="content-overlay"></div> <img class="content-image" src="images/website1.png">
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">
+                  <p>Time spent: 4 hours</p>
+                  <p>Tools used: HTML, CSS</p>
+                  <p>Thoughts: It was a very basic website and could have many more improvements!</p>
+                  <a href="git@github.com:missjulietran/website1.git"><img src="/images/githubicon.png"
+                      class="animate__animated animate__shakeY animate__repeat-100"></a> <i
+                    class="fas fa-long-arrow-alt-left"></i> get the repo
+                </h3>
+              </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="content">
+              <div class="content-overlay"></div> <img class="content-image" src="images/website2.png">
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">
+                  <p>Time spent: 10 hours</p>
+                  <p>Tools used: HTML, CSS, Javascript, Bootstrap</p>
+                  <p>Thoughts: Simple, has bootstrap carousel in it with a JS time</p>
+                  <a href="git@github.com:missjulietran/website2.git"><img src="/images/githubicon.png"
+                      class="animate__animated animate__shakeY animate__repeat-100"></a> <i
+                    class="fas fa-long-arrow-alt-left"></i> get the repo
+                </h3>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- fifth section - Contact -->
+    <div id="contact" class="paddsection">
+      <div class="container">
+        <h2 class="about2">contact</h2>
+        <hr class=black>
+        <div class="contact-block1">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact-contact">
+                <ul class="contact-details">
+                  <p>Julie Tran</p>
+                  <p>Address</p>
+                  <p>Country</p>
+                  <p>Postal code</p>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="https://formspree.io/f/xyyboelo" method="post" role="form" class="php-email-form">
+                <div class="row">
+
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="_replyto" name="email" id="email" placeholder="Your Email"
+                        data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                        data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" rows="12" data-rule="required"
+                        data-msg="Please write something for us" placeholder="Message"></textarea>
+                      <div class="validate"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- footer -->
+    <div id="footer" class="text-center">
+      <div class="container">
+        <div class="socials-media text-center">
+
+          <ul class="list-unstyled">
+            <li><a href="https://www.linkedin.com/in/julieeetran/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/JulieeeTran"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+
+        <!-- attach JavaScripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
