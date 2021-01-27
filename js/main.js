@@ -70,7 +70,7 @@ var typewriter = function(txt) {
 //   dataText = container.dataset.typewriter,
 //   splitTxt = dataText.split(",")
 // for (var x = 0, ln = splitTxt.length; x < ln; x++) {
-//   setTimeout(typewriter(splitTxt[x]), x * 9000, x);
+//   setTimeout(typewriter(splitTxt[x]), x * 1000, x);
 // }
 
 
@@ -238,4 +238,8 @@ document.addEventListener("DOMContentLoaded", function() {
     return Math.random() * (max - min) + min;
   }
 });
+
+
+
+// time
 
